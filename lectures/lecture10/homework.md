@@ -49,6 +49,7 @@ docker compose down
 
 ### Что добавить в docker-compose.yml:
 
+
 ```yaml
   redis-commander:
     image: rediscommander/redis-commander:latest
@@ -59,7 +60,6 @@ docker compose down
     depends_on:
       - redis
 ```
-
 ### Шаги:
 
 1. Добавить сервис в `docker-compose.yml`

@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         IMAGE_NAME      = "devops-bootcamp-backend"
-        DOCKER_HUB_REPO = "username/devops-bootcamp-backend"
+        DOCKER_HUB_REPO = "greytfly/devops-bootcamp-backend"
     }
 
     stages {

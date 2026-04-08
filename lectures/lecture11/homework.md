@@ -29,7 +29,7 @@ docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
 3. Создай Pipeline job с именем `devops-bootcamp` и тремя stages:
    - `Checkout` — вывести `pwd` и `ls`
    - `Build` — вывести `docker --version`
-   - `Done` — вывести `"Билд #${BUILD_NUMBER} завершён"`
+   - `Done` — вывести `d`
 
 4. Запусти pipeline кнопкой **Build Now**
 

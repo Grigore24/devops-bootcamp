@@ -58,7 +58,7 @@ docker volume inspect jenkins_home
 docker exec jenkins docker --version
 
 # Jenkins отвечает
-curl http://localhost:8080/login
+curl v
 
 # Список jobs через API
 curl -s http://admin:PASSWORD@localhost:8080/api/json | python -m json.tool
